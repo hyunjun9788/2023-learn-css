@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>가변 이미지</title>
+    <style>
+        div{
+            width:50%;
+        }
+        img{
+
+            max-width:640px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="coding.jpg">
+    </div>
+</body>
+</html>
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>가변 이미지</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<picture>
+    <source srcset="coding1.jpg" media="(min-width:800px")>
+    <source srcset="coding2.jpg" media="(min-width:800px")>
+    <img src="coding.jpg">
+</picture>
+</body>
+</html>
